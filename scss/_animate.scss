@@ -1,0 +1,18 @@
+
+@keyframes  animtop{
+    0%{
+        transform: translateX(5px);
+        color: $colorYel;
+    }
+    20%{
+        transform: translateX(10px);
+        color: $colorYel;
+    }
+    
+    
+    100%{
+        transform: translateX(0px);
+        color: #333;
+        
+    }
+}

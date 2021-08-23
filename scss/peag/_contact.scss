@@ -1,0 +1,80 @@
+.contact {
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        // border: 3px solid rgb(156, 105, 105);
+        .contact{
+            flex: 1 1 45rem ;
+            padding: 4rem;
+                // border: 2px solid rgb(236, 236, 236);
+                padding-bottom: 0;
+
+            .title{
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 3rem;
+                padding-bottom: 2rem;
+
+            }
+
+            .info {
+
+                h3{
+                    display: flex;
+                    align-items: center;
+                    font-size: 2rem;
+                    color: #eee;
+                    padding: 1rem 0;
+                    font-weight: normal;
+
+                    a{
+                        display: flex;
+                        align-items: center;
+                        font-size: 2rem;
+                        color: #eee;
+                        padding: 1rem 0;
+                        font-weight: normal;
+
+                        i{
+                             padding-right: 1rem;
+                             color: $colorYel;
+                        }
+                    }
+                }
+            }
+
+        }
+        form{
+            flex: 1 1 45rem;
+            padding: 2rem;
+            margin: 2rem;
+            margin-bottom: 4rem;
+
+            .box{
+                padding: 1rem;
+                margin: 1rem 0;
+                background: #333;
+                color: #fff;
+                text-transform: none;
+                width: 100%;
+                font-size: 1.7rem; 
+            }
+
+            .box::placeholder{
+                text-transform: capitalize;
+            }
+            .massage{
+                height: 15rem;
+                resize: none;
+            }
+        }
+    }
+
+    
+}   
+
+

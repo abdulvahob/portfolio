@@ -1,0 +1,30 @@
+.portfolio{
+
+    .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 2rem ;
+        // border: 2px solid red;
+        .box{
+            height: 20rem;
+            width: 26rem;
+            border-radius: 1rem;
+            margin: 2rem;
+            overflow: hidden;
+            cursor: pointer;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            img:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+
+}

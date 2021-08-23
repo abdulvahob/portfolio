@@ -1,0 +1,97 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection {
+    background: $colorYel;
+    color: #333;
+}
+
+html{
+    background: #111;
+    overflow-x: hidden;
+    padding-left: 35rem;
+    font-size: 60%;
+    scroll-behavior: smooth;
+}
+
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: #222;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: $colorYel;
+}
+
+
+
+.btn{
+    padding: .7rem 3rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.btn i {
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+}
+
+.btn:hover{
+    background-color: $colorYel;
+    color: #333;
+}
+
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+
+    span{
+        color: $colorYel;
+        margin-right: 5px;
+    }
+}
+
+.top{
+    position: fixed;
+    bottom: 5rem ;
+    right: 2rem;
+    z-index: 100;
+    transform: rotate(-90deg);
+    display: none;
+    
+    i{
+        animation: animtop  1.3s  linear infinite;
+        font-size: 60px;
+        color: $colorYel;
+    }
+
+}
+
+

@@ -1,0 +1,57 @@
+
+.about {
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem 0;
+
+        .info{
+            flex: 1 1 48px;
+            padding: 2rem 1rem;
+            padding-left: 6rem;
+
+            h3{
+                font-size: 2rem ;
+                color: $colorYel;
+                padding: 1rem 0 ;
+                font-weight: normal;
+
+                span{
+                    color: #eee;
+                    padding: 0 .5rem;
+                }
+            }
+        }
+
+        .counter{
+            flex: 1 1 44rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            // border: 2px solid red;
+
+            .box{
+                width: 20rem;
+                background: #222;
+                text-align: center;
+            // border: 2px solid red;
+            padding: 2rem;
+                margin: 2rem;
+
+                span{
+                    font-size: 4rem;
+                    color: $colorYel;
+                }
+
+                h3{
+                    font-size: 2rem;
+                    color: #fff;
+                }
+            }
+        }
+
+    }       
+}
